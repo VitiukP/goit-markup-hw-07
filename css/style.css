@@ -897,10 +897,10 @@ min-height: 404px;`
   right: 0.55px;
 } */
 
-.contact-form {
+/* .contact-form {
   padding: 40px;
-  /* display: flex;
-    flex-direction: column; */
+  display: flex;
+    flex-direction: column; 
 }
 
 .modal-item {
@@ -1114,4 +1114,4 @@ min-height: 404px;`
 .contact-form-input:focus {
   border: 1px solid #2196f3;
   outline: transparent;
-}
+} */
