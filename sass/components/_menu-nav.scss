@@ -5,7 +5,7 @@
 .menu-nav {
     margin-left: 93px;
 }
-.linkstudio {
+.link__studio {
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -16,15 +16,15 @@
     position: relative;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+    &:focus {
+        color: var(--hover-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
-.linkstudio:hover,
-.linkstudio:focus {
-    color: var(--hover-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.linkportfolio {
+.link__portfolio {
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -36,19 +36,19 @@
     position: relative;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover,
+    &:focus {
+        color: var(--hover-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
 }
 
-.nav-items {
+.nav__items {
     margin-right: 50px;
 }
 
-.linkportfolio:hover,
-.linkportfolio:focus {
-    color: var(--hover-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.linkcontact {
+.link__contact {
     padding-top: 32px;
     padding-bottom: 32px;
     font-weight: 500;
@@ -60,19 +60,13 @@
     position: relative;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.linkcontact:hover,
-.linkcontact:focus {
+&:hover,
+&:focus {
     color: var(--hover-color);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+}}
 
-.linkcontact:hover,
-.linkcontact:focus {
-    color: var(--hover-color);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .contact-info {
     display: flex;

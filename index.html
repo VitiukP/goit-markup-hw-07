@@ -26,23 +26,23 @@
       <nav class="menu-nav">
 
         <ul class="header-list list">
-          <li class="nav-items"><a class="currrent link linkstudio" href="./index.html">Студия</a></li>
-          <li class="nav-items"><a class="link linkportfolio" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link linkcontact" href="#">Контакты</a></li>
+          <li class="nav__items"><a class="currrent link link__studio" href="./index.html">Студия</a></li>
+          <li class="nav__items"><a class="link link__portfolio" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link link__contact" href="#">Контакты</a></li>
         </ul>
       </nav>
       <ul class="contact-info list">
-        <li class="list-mail">
-          <a class="mail-link link" href="mailto:info@devstudio.com">
-            <svg class="icon-post" width="16" height="12">
+        <li class="list__mail">
+          <a class="list-mail__link link" href="mailto:info@devstudio.com">
+            <svg class="icon__post" width="16" height="12">
               <use href="./images/sprite.svg#icon-post"></use>
             </svg>
             info@devstudio.com
           </a>
         </li>
         <li class="list-call">
-          <a class="call-link link" href="tel:+380961111111">
-            <svg class="icon-phone" width="10" height="16">
+          <a class="list-call__link link" href="tel:+380961111111">
+            <svg class="icon__phone" width="10" height="16">
               <use href="./images/sprite.svg#icon-smartphone"></use>
             </svg>+38 096 111 11 11</a>
         </li>
@@ -57,17 +57,17 @@
 
     <section class="hero background-theme">
       <div class="container">
-        <h1 class="slogan">Эффективные решения для вашего бизнеса</h1>
+        <h1 class="hero__slogan">Эффективные решения для вашего бизнеса</h1>
 
-        <button class="main-btn main-btn__active" type="button" data-modal-open>Заказать услугу</button>
+        <button class="main__btn main__btn--active" type="button" data-modal-open>Заказать услугу</button>
       </div>
     </section>
 
     <section class="feature-section section">
       <div class="container">
-        <h2 class="visually-hidden">Особенности</h2>
+        <h2 class="visually--hidden">Особенности</h2>
         <ul class="feature-items list">
-          <li class="detail-item">
+          <li class="feature-items__detail">
             <div class="feature-warp">
               <svg class="svg-icon" width="70" height="70">
                 <use href="./images/sprite.svg#icon-antenna-1"></use>
@@ -77,7 +77,7 @@
             <p class="detail-text"> Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
           </li>
 
-          <li class="detail-item">
+          <li class="feature-items__detail">
             <div class="feature-warp">
               <svg class="svg-icon" width="70" height="70">
                 <use href="./images/sprite.svg#icon-clock-1"></use>
@@ -88,7 +88,7 @@
               собой.</p>
           </li>
 
-          <li class="detail-item">
+          <li class="feature-items__detail">
             <div class="feature-warp">
               <svg class="svg-icon" width="70" height="70">
                 <use href="./images/sprite.svg#icon-diagram-1"></use>
@@ -99,7 +99,7 @@
             </p>
           </li>
 
-          <li class="detail-item">
+          <li class="feature-items__detail">
             <div class="feature-warp">
               <svg class="svg-icon" width="70" height="70">
                 <use href="./images/sprite.svg#icon-astronaut-1"></use>
@@ -116,16 +116,16 @@
       <div class="container">
         <h2 class="title">Чем мы занимаемся</h2>
         <ul class="feature-items list">
-          <li class="detail-item affair-item"><img src="./images/What are we doing/img1.jpg" alt="печать на клавиатуре"
-              width="370" height="294">
+          <li class="feature-items__detail affair-item"><img src="./images/What are we doing/img1.jpg"
+              alt="печать на клавиатуре" width="370" height="294">
             <p class="work-text">Десктопные приложения</p>
           </li>
-          <li class="detail-item affair-item"><img src="./images/What are we doing/img2.jpg" alt="работа за ноутбуком"
-              width="370" height="294">
+          <li class="feature-items__detail affair-item"><img src="./images/What are we doing/img2.jpg"
+              alt="работа за ноутбуком" width="370" height="294">
             <p class="work-text">Мобильные приложения</p>
           </li>
-          <li class="detail-item affair-item"> <img src="./images/What are we doing/img3.jpg" alt="цветовая палитра"
-              width="370" height="294">
+          <li class="feature-items__detail affair-item"> <img src="./images/What are we doing/img3.jpg"
+              alt="цветовая палитра" width="370" height="294">
             <p class="work-text">Дизайнерские решения</p>
           </li>
         </ul>
@@ -397,7 +397,7 @@
 
       <form class="subscribe">
         <b class="join__title subscribe-title">Подпишитесь на рассылку</b>
-        <label class="visually-hidden" for="subscribe_mail">E-mail</label>
+        <label class="visually--hidden" for="subscribe_mail">E-mail</label>
         <input class="subscribe__input" name="subscribe_mail" id="subscribe_mail" type="email" required
           placeholder="E-mail" />
         <button class="subscribe-button main-btn__active" type="submit">
@@ -468,7 +468,7 @@
 
         <span class="callback-form__item policy-checkbox">
           <label class=" colback-form-field policy-checkbox__label">
-            <input id="user-policy" name="user_policy" type="checkbox" class="contact-form-checkbox visually-hidden"
+            <input id="user-policy" name="user_policy" type="checkbox" class="contact-form-checkbox visually--hidden"
               required value="policy" />
             <svg class="form-check-icon">
               <use href="./images/sprite.svg#check"></use>

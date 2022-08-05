@@ -5,16 +5,16 @@
 .feature-items {
     display: flex;
     /* justify-content: center; */
+    gap: 30px;
+    
 }
 
-.detail-item {
+.feature-items__detail{
     width: 270px;
     padding-bottom: 0px;
 }
 
-.detail-item+.detail-item {
-    margin-left: 30px;
-}
+
 
 .feature-warp {
     display: flex;
